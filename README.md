@@ -1,0 +1,1 @@
+### This app can be used to choose your Scape Goat for today! 😊

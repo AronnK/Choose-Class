@@ -1,0 +1,18 @@
+.dice {
+  font-size: 50px;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dice.rolling {
+  animation: roll 2s ease-in-out forwards;
+}
+
+@keyframes roll {
+  0% { transform: translate(0, 0) rotate(0); }
+  25% { transform: translate(100px, -50px) rotate(720deg); }
+  50% { transform: translate(-50px, 100px) rotate(1440deg); }
+  75% { transform: translate(50px, -100px) rotate(2160deg); }
+  100% { transform: translate(0, 0) rotate(2880deg); }
+}

@@ -1,0 +1,64 @@
+/* Reset body and html margins and paddings */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* General App Styling */
+.App {
+  text-align: center;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  padding: 20px; /* Add some padding to the top and sides */
+}
+
+/* Student Display Styling */
+.student-display {
+  margin-top: 20px;
+  color: #e0e0e0; /* Light text color */
+}
+
+/* Input and Button Styling */
+input {
+  margin-right: 10px;
+  color: #121212; /* Dark input text color */
+  background: #e0e0e0; /* Light input background color */
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+button {
+  background: #ffeb3b; /* Bright button color */
+  color: #121212; /* Dark button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #fbc02d; /* Darker button color on hover */
+}
+
+.dice-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-section, .topic-section {
+  flex: 1;
+  text-align: center;
+}
+
+.topic-section h2 {
+  margin-top: 20px;
+}
