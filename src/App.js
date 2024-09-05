@@ -3,6 +3,7 @@ import Dice from "./components/Dice";
 import Confetti from "./components/Confetti";
 import StudentDisplay from "./components/StudentDisplay";
 import { supabase } from "./supabase";
+import goatStatic from "./assets/goatStatic.png";
 import "./App.css";
 
 function App() {
@@ -117,7 +118,18 @@ function App() {
 
   return (
     <div className="App">
-      <h1 style={{ fontSize: "100px" }}>🐐</h1>
+      <img
+        src={goatStatic}
+        alt="Goat"
+        style={{
+          width: "650px",
+          height: "300px",
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      />
+
       <h1>Today's Scape Goat</h1>
       <h1>Indriya Bali Aadu</h1>
       <div className="dice-container">
